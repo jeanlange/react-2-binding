@@ -12,9 +12,11 @@ This is a demo of how to get values out of text boxes using React - and put thos
   * components
     * props
   * state
+  * Binding! One way vs two way binding
 * plan:
   * display a piece of state as the contents of the h1
   * when the textbox changes, change that piece of state
+
 
 # Getting Started with Create React App
 

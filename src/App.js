@@ -1,14 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    // create some state
+    this.state = {
+      myCoolText: ""
+    };
+  }
   render() {
+    console.log('hello!');
     return (
       <div>
         <div>hello world</div>
-        <input></input>
-        <h1>text should go here</h1>
+        <input value={this.state.myCoolText}></input>
+        <h1>{this.state.myCoolText}</h1>
       </div>
     );
   }
